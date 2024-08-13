@@ -1,6 +1,6 @@
 # File code dùng để khởi tạo API.
 from huggingface_hub import login
-login(token="YOUR TOKEN")
+login(token="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")
 
 import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -56,4 +56,4 @@ add_routes(app,
            path="/generative_ai"
            )
 
-# uvicorn src.app:app --host "0.0.0.0" --port 8080 --reload
+# uvicorn src.app:app --host "0.0.0.0" --port 5000 --reload
