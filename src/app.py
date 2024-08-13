@@ -1,6 +1,6 @@
 # File code dùng để khởi tạo API.
 from huggingface_hub import login
-login(token="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")
+login(token="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")
 
 import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
