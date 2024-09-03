@@ -17,3 +17,4 @@ rapidocr-onnxruntime==1.3.16
 unstructured==0.13.2
 fastapi==0.110.1
 uvicorn==0.29.0
+tensorrt==10.3.0
